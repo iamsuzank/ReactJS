@@ -1,0 +1,36 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#BDBDBD;
+}
+#btnAdd{
+    background: green;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid green;
+    cursor: pointer;
+}
+#btnLen{
+    background: green;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid green;
+    cursor: pointer;
+}
+#btnLen:hover{
+    background:#2E94E3;
+
+   color : #fff;
+
+    border: 1px solid green;
+}
+
+#btnAdd:hover{
+    background: #fff;
+    color: green;
+    border: 1px solid green;
+}

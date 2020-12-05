@@ -1,0 +1,50 @@
+
+*{
+		padding:0;
+		margin:0;
+		box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#BDBDBD;
+}
+
+.main{
+	background: black;
+	width: 400px;
+	height: 175px;
+	margin: 100px auto;
+	position: relative;
+	border-radius: 8px;
+}
+
+.badge{
+	width: 65px;
+	font-weight: bold;
+	background: red;
+	color: white;
+	padding: 5px 10px;
+	position: absolute;
+	top: -15px;
+	left: 42%;
+	border-radius:4px;
+}
+.clock,.meri{
+	
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	height: 100%;
+	padding-top: 10%;
+	font-family: 'Gugi', cursive; 
+	border-radius:8px;
+}
+
+.clock:hover{
+	color:#2E94E3;
+	box-shadow:0 0 25px #2E94E3;
+	}
